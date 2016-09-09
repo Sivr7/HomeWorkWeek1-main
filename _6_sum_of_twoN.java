@@ -16,9 +16,11 @@ public class _6_sum_of_twoN {
 
         System.out.println("Enter b:");
         double b = sc.nextDouble();
+        // I think it will be better with sum variable
+        double sum = a + b;
 
-        if(a + b >= 11 && a + b <=19){
-            System.out.println("a + b = " + (a + b));
+        if(sum >= 11 && sum <= 19){
+            System.out.println("a + b = " + sum);
         } else {
             System.out.println("SUM not in [11 - 19] range!");
         }
